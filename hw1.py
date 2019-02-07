@@ -24,10 +24,10 @@ fig = plot.figure()
 plot.grid(True, which='both')
 plot.axhline(y = 0, color='k')
 
-plot.title('Sine and Cosine')
+plot.title('Sine and Cosine and Tangent')
 plot.xlabel('Time')
 plot.ylabel('Amplitude')
-plot.plot(x,y,x,z)
+plot.plot(x,y,x,z,x,t)
 plot.show()
 
 #Saving the graph localli - venkata
